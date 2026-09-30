@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px 15px;
+
+    font-family: "Trebuchet MS", Arial, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #d8b4fe,
+        #f5c2e7,
+        #e9d5ff,
+        #fbcfe8
+    );
+
+    color: #56345f;
+}
+
+.card {
+    width: 100%;
+    max-width: 650px;
+
+    padding: 45px;
+
+    background: #fff7ff;
+
+    border-radius: 30px;
+
+    text-align: center;
+
+    box-shadow:
+        0 15px 35px rgba(100, 50, 130, 0.25);
+
+    border: 3px solid #d8a7e8;
+
+    position: relative;
+}
+
+.decoration {
+    font-size: 45px;
+
+    margin-bottom: 5px;
+}
+
+h1 {
+    margin: 0;
+
+    color: #8e44ad;
+
+    font-size: 38px;
+}
+
+.subtitle {
+    color: #9b6b
